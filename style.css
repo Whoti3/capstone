@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    color: #272727;
+}
+
+main{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.container{
+    border: 1px solid #aaa; /*COME BACK*/
+    border-radius: 10px;
+    padding: 5% 0;
+}
+
+.special{
+    display: grid;
+    justify-items: center;
+}
+
+.stroke {
+    border: 1px solid #aaa; /*COME BACK*/
+    border-radius: 10px;
+    width: 85%;
+    margin: 5% 0;
+}
+
+/*IMAGES SECTION*/
+img {
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.stroke img{ 
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 70%;                       
+    height: 30vh;                       
+    background-image: url('images/peacock.jpg');  
+    background-size: cover;               
+    background-position: center;          
+    display: grid;                       
+    align-items: end;                  
+    border-radius: 10px;                  
+    overflow: hidden;
+}
+
+.second {
+    background-image: url('images/flame.jpg');  
+}
+.third {
+    background-image: url(images/macaw.jpg);
+}
+.last {
+    background-image: url(images/owl.jpg);
+}
+
+.side-by-side {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+}
+
+
+/*TEXT*/
+.text-padd {
+    padding: 0 5%;
+}
+
+.learn-more {
+    text-align: right;
+}
+
+.text-overlay {
+    background-color: rgba(0, 0, 0, 0.4);       
+    color: white;                         
+    padding: 0 20px;      
+    margin: 0 20px;                 
+    border-radius: 5px;
+    display: flex;  
+    align-items: center;    
+    justify-content: space-between;         
+  }
+
+  .second .text-overlay, .third .text-overlay{
+    background-color: rgba(255, 255, 255, 0.25);
+  }
